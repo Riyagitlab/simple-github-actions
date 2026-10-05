@@ -1,0 +1,9 @@
+name: Runshell  commands
+on: [push]
+
+jobs:
+    run-shell-command:
+       runs-on: ububtu-latest
+       steps:
+        - name: echo a string
+          run: echo "Hello i am practising"
